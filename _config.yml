@@ -17,10 +17,10 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "#"
-twitter: "#"
+facebook: "miko.berlianto"
+twitter: "koomikoo"
 linkedin: "#"
-github: "#"
+github: "mikoberlianto"
 researchgate: "#"
 orcid: "#"
 
