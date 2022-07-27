@@ -41,11 +41,11 @@ Kec. Balikpapan Selatan Kota Balikpapan, Indonesia-76115<br/>
 ## Pengalaman
 
 `2015`
-**Intership**, *Bagian Plant dan Training Center, Balikpapan Support Facility PT Bukit Makmur Mandiri Utama (BUMA), Pertambangan*, Balikpapan, INA.
+**Internship**, *Bagian Plant dan Training Center, Balikpapan Support Facility PT Bukit Makmur Mandiri Utama (BUMA), Pertambangan*, Balikpapan, INA.
 Adalah perusahaan yanng bergerak dibidang pertambangan, berpusat di Jakarta dan memiliki beberapa kantor perwakilan didaerah yang disebut sebagai Buma Support Facility serta memiliki banyak Site yang tersebar luas diseluruh Indonesia. PT BUMA berdiri dan kukuh mempertahankan kekuatannya disaat kondisi pasar bahan tambang yang fluktuatif dan diterjang Covid-19.
 
 `2015-2022`
-**PKWT/Outsourcing**, *Bidang Underwriting, Keuangan & Umum, Klaim & Subrogasi, PT ASKRINDO Cabang Balikpapan, Asuransi*, Balikpapan, INA.
+**PKWT/Outsourcing**, *Bid. Underwriting, Keuangan & Umum, Klaim & Subrogasi, PT ASKRINDO Cabang Balikpapan, Asuransi*, Balikpapan, INA.
 Adalah perusahaan yang bergerak dibidang Asuransi merupakan salah satu BUMN dan anggota dari Holding Asuransi Indonesia Financial Group (IFG). Berdiri sejak tahun 1971 membantu pemerintah dalam pembangunan ekonomi bangsa dan Negara Republik Indonesia. Mengemban misi dalam pemberdayaan Usaha Mikro, Kecil dan Menengah (UMKM) guna menunjang pertumbuhan perekonomian Indonesia. Peran PT. Askrindo dalam pemberdayaan UMKM adalah sebagai lembaga penjamin atas kredit yang disalurkan oleh perbankan kepada UMKM.
 
 `2022-Sekarang`

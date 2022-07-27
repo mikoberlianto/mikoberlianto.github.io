@@ -7,8 +7,17 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Hallo.
+Saya [Miko Berlianto](){:target="_blank"}, biasa dipanggil Koo atau apapun yang kalian suka. Lahir di Pati Jawa Tengah, saat balita dibawa berpergian/merantau ke pulau kalimantan yang akan menjadi calon ibukota. [Dibesarkan dari keluarga sederhana](){:target="_blank"}, Ayah seorang wiraswasta dan Ibu adalah ibu-rumah-tangga biasa. Dengan keadaan ekonomi yang seadanya mereka dapat membesarkan sampai dengan saya hidup mandiri.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+Mengenyam pendidikan SD Negeri dengan selalu mendapat peringkat 10-besar, lanjut ke MTs Negeri yang selalu berada di 3-besar, tetapi di SMA Negeri terdapat penurunan yang hanya di 10-besar karena aktif dalam organisasi PMR dan Pramuka. Melanjutkan pendidikan sarjana lulusan sebagai [S1-Akuntansi dengan predikat cukup baik](){:target="_blank"} tanpa tinggal kelas.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+Dengan pemikiran yang terbuka dan wawasan luas menjadikan saya [cepat dalam menangkap ilmu/pengetahuan baru](){:target="_blank"}. Mudah mengenal orang baru karena tipikal orang yang tidak-tahu-malu, Sebagian orang menganggap saya Easy-going tetapi banyak juga melihatnya misterius.
+
+Karena kemisteriusan tersebut menjadikan kurang aktif dalam percakapan sehingga lawan bicara akan [sulit berkomunikasi dan memahami pemahaman/ide pikiran saya](){:target="_blank"}. Tetapi tidak menghambat saya untuk [menjadi inisiatif](){:target="_blank"} dan bekerja dengan fokus dan sungguh-sungguh untuk memperbaiki derajat keluarga dan menjadi suami yang bertanggung jawab serta bangga menjadi pemimpin keluarga.
+
+Seperti saudara dan sahabat saya yang menjadikan mereka bisa sukses, saya juga bercita-cita seperti mereka. [Bukan tentang gaya hidupnya tetapi semangat dan usaha](){:target="_blank"} mereka menjalani hidup sampai dengan saat ini.
+
+Seperti quote terkenal yang saya tahu:
+>Manusia tidak memiliki kuasa untuk memiliki apapun yang dia mau, tetapi dia memiliki kuasa untuk tidak mengingini apa yang dia belum miliki, dan dengan gembira memaksimalkan apa yang dia terima.
+>~Henry Manampiring, Filosofi Teras
