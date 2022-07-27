@@ -32,19 +32,21 @@ Kec. Balikpapan Selatan Kota Balikpapan, Indonesia-76115<br/>
 `2010-2013`
 **IPS-Sekolah Menegah Atas**, *SMA Negeri 1 Tanah Grogot*, Tana Paser, Kal-Tim, INA.
 
-<!-- `2007-2010`
+`2007-2010`
 **Madrasah Tsanawiyah**, *MTs Negeri Tanah Grogot*, Tana Paser, Kal-Tim, INA.
 
 `2001-2007`
-**Sekolah Dasar**, *SD Negeri 013 Tanah Grogot*, Tana Paser, Kal-Tim, INA. -->
+**Sekolah Dasar**, *SD Negeri 013 Tanah Grogot*, Tana Paser, Kal-Tim, INA.
 
 ## Pengalaman
 
 `2015`
-**Internship**, *Bagian Plant dan Training Center, Balikpapan Support Facility PT Bukit Makmur Mandiri Utama (BUMA), Pertambangan*, Balikpapan, INA.
+**Intership**, *Bagian Plant dan Training Center, Balikpapan Support Facility PT Bukit Makmur Mandiri Utama (BUMA), Pertambangan*, Balikpapan, INA.
+Adalah perusahaan yanng bergerak dibidang pertambangan, berpusat di Jakarta dan memiliki beberapa kantor perwakilan didaerah yang disebut sebagai Buma Support Facility serta memiliki banyak Site yang tersebar luas diseluruh Indonesia. PT BUMA berdiri dan kukuh mempertahankan kekuatannya disaat kondisi pasar bahan tambang yang fluktuatif dan diterjang Covid-19.
 
 `2015-2022`
 **PKWT/Outsourcing**, *Bidang Underwriting, Keuangan & Umum, Klaim & Subrogasi, PT ASKRINDO Cabang Balikpapan, Asuransi*, Balikpapan, INA.
+Adalah perusahaan yang bergerak dibidang Asuransi merupakan salah satu BUMN dan anggota dari Holding Asuransi Indonesia Financial Group (IFG). Berdiri sejak tahun 1971 membantu pemerintah dalam pembangunan ekonomi bangsa dan Negara Republik Indonesia. Mengemban misi dalam pemberdayaan Usaha Mikro, Kecil dan Menengah (UMKM) guna menunjang pertumbuhan perekonomian Indonesia. Peran PT. Askrindo dalam pemberdayaan UMKM adalah sebagai lembaga penjamin atas kredit yang disalurkan oleh perbankan kepada UMKM.
 
 `2022-Sekarang`
 **Keuangan**, *Dinas Tenaga Kerja dan Transmigrasi, Pemerintah Daerah*, INA.
@@ -103,4 +105,4 @@ Kewarganegaraan: INA
 Domisili: Balikpapan  
 Keluarga: Kawin, belum ada tanggungan
 
-<br/>Last updated: Desember 2021<br/><br/>
+<br/>Last updated: Juni 2022<br/><br/>
