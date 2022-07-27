@@ -3,8 +3,8 @@
 title: Miko Berlianto
 description: subtitle | affiliations | motto
 
-baseurl: "" #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+baseurl: "" #name of GitHub repository, if use github.io just clear field or use ""
+url: "https://mikoberlianto.github.io" #custom url to be used instead of GitHub repository
 email: #
 
 
