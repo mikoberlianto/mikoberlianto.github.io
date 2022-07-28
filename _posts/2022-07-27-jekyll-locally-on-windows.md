@@ -1,38 +1,38 @@
 ---
 layout: post
-title: Jekyll Locally On Windows
+title: Jekyll Secara Lokal Di Windows
 description: Running Jekyll Locally for running github-pages on Windows
 ---
 
-Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more.
+Jekyll adalah generator situs statis. Dibutuhkan teks yang ditulis dalam bahasa markup favorit Anda dan menggunakan tata letak untuk membuat situs web statis. Anda dapat mengubah tampilan dan nuansa situs, URL, data yang ditampilkan di halaman, dan banyak lagi.
 
-# Installation
-Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most systems.
+# Instalasi
+Jekyll adalah [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) yang dapat diinstal pada sebagian besar sistem.
 
-Requirements
-* [Ruby](https://www.ruby-lang.org/en/downloads/) version **2.5.0** or higher, including all development headers (check your Ruby version using `ruby -v`)
-* [RubyGems](https://rubygems.org/pages/download) (check your Gems version using `gem -v`)
-* [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/) (check versions using `gcc -v`, `g++ -v`, and `make -v`)
+Persyaratan
+* [Ruby](https://www.ruby-lang.org/en/downloads/) versi **2.5.0** atau lebih tinggi, termasuk semua header pengembangan (periksa versi Ruby Anda menggunakan ruby -v)
+* [RubyGems](https://rubygems.org/pages/download) (periksa versi Permata Anda menggunakan gem -v)
+* [GCC](https://gcc.gnu.org/install/) dan [Make](https://www.gnu.org/software/make/) (periksa versi menggunakan `gcc -v`, `g++ -v`, dan `make -v`)
 
-# Jekyll on Windows
-While Windows is not an officially-supported platform, it can be used to run Jekyll with the proper tweaks.
+## Jekyll di Windows
+Meskipun Windows bukan platform yang didukung secara resmi, windows dapat digunakan untuk menjalankan Jekyll dengan tweak yang tepat.
 
-## Installing Ruby, Gem and Jekyll
-The easiest way to install Ruby and Jekyll is by using the [RubyInstaller](https://rubyinstaller.org/) for Windows.
+### Menginstal Ruby, Gem dan Jekyll
+Cara termudah untuk menginstal Ruby dan Jekyll adalah dengan menggunakan [RubyInstaller](https://rubyinstaller.org/) untuk Windows.
 
-RubyInstaller is a self-contained Windows-based installer that includes the Ruby language, an execution environment, important documentation, and more.
+RubyInstaller adalah penginstal berbasis Windows mandiri yang mencakup bahasa Ruby, lingkungan eksekusi, dokumentasi penting, dan banyak lagi.
 
-We only cover RubyInstaller-2.4 and newer here. Older versions need to install the [Devkit manually](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
+Kami hanya membahas RubyInstaller-2.4 dan yang lebih baru di sini. Versi yang lebih lama perlu menginstal [Devkit secara manual](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
 
-1. Download and install a **Ruby+Devkit** version from [RubyInstaller Downloads](https://rubyinstaller.org/downloads/). Use default options for installation.
-2. Run the `ridk install` step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the [RubyInstaller Documentation](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system). From the options choose `MSYS2 and MINGW development tool chain`.
-3. Open a new command prompt window from the start menu, so that changes to the `PATH` environment variable becomes effective. Install Jekyll and Bundler using `gem install jekyll bundler`
-4. Check if Jekyll has been installed properly: `jekyll -v`
+1. Unduh dan instal versi **Ruby+Devkit** dari [RubyInstaller Downloads](https://rubyinstaller.org/downloads/). Gunakan opsi default untuk instalasi.
+2. Jalankan `ridk install` langkah pada tahap terakhir dari wizard instalasi. Ini diperlukan untuk menginstal permata dengan ekstensi asli. Anda dapat menemukan informasi tambahan mengenai hal ini di [Dokumentasi RubyInstaller](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system). Dari opsi pilih `MSYS2 and MINGW development tool chain`.
+3. Buka jendela prompt perintah baru dari menu mulai, sehingga perubahan pada `PATH` variabel lingkungan menjadi efektif. Instal Jekyll dan Bundler menggunakan `gem install jekyll bundler`
+4. Periksa apakah Jekyll telah diinstal dengan benar: `jekyll -v`
 
-That’s it, you’re ready to use Jekyll!
+Itu saja, Anda siap menggunakan Jekyll!
 
-## Running Jekyll and Static pages
-* Create a new Jekyll site at `./myblog`.
+## Menjalankan halaman Jekyll dan Statis
+* Buat situs Jekyll baru di `./myblog`.
 ```jekyll new myblog```
 
 ~~~PowerShell
@@ -87,8 +87,7 @@ That’s it, you’re ready to use Jekyll!
     New jekyll site installed in C:/tools/myblog.
 ~~~
 
-* Change into your new directory.
-```cd myblog```
+* Ubah ke direktori baru Anda. `cd myblog`
 
 ~~~PowerShell
     PS > cd ./myblog/
@@ -109,8 +108,7 @@ That’s it, you’re ready to use Jekyll!
     -a---        27/07/2022     18:26            175   index.markdown
 ~~~
 
-* Build the site and make it available on a local server.
-```bundle exec jekyll serve```
+* Bangun situs dan buat tersedia di server lokal. `bundle exec jekyll serve`
 
 ~~~PowerShell
     PS > bundle exec jekyll serve
@@ -145,7 +143,8 @@ That’s it, you’re ready to use Jekyll!
             from C:/tools/ruby31/bin/jekyll:32:in `<main>'
 ~~~
 
-> If you are using Ruby version 3.0.0 or higher, step 5 may fail. You may fix it by adding `webrick` to your dependencies: `bundle add webrick`
+> Jika Anda menggunakan Ruby versi 3.0.0 atau lebih tinggi, langkah 5 mungkin gagal. Anda dapat memperbaikinya dengan menambahkan `webrick` ke dependensi Anda: `bundle add webrick`
+
 ~~~PowerShell
     PS > bundle add webrick
     Fetching gem metadata from https://rubygems.org/...........
@@ -192,9 +191,9 @@ That’s it, you’re ready to use Jekyll!
 ~~~
 
 
-* Browse to [http://localhost:4000](http://localhost:4000)
+* Telusuri ke [http://localhost:4000](http://localhost:4000)
 
-> If there some Dependency error
+> Jika ada beberapa kesalahan Dependensi
 
 ~~~PowerShell
 Dependency Error: Yikes! It looks like you don't have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. If you've run Jekyll with `bundle exec`, ensure that you have included the jekyll-paginate gem in your Gemfile as well. The full error message from Ruby is: 'cannot load such file -- jekyll-paginate' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/!
@@ -244,7 +243,7 @@ C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/jekyll-4.2.2/lib/jekyll/external.rb:73:
         from C:/tools/ruby31/bin/jekyll:32:in `<main>'
 ~~~
 
-> Just install depedency correctly to running jekyll `gem install REQ_DEPEDENCY`
+> Cukup instal depedency dengan benar untuk menjalankan jekyll `gem install REQ_DEPEDENCY`
 
 ~~~PowerShell
     PS > gem install jekyll-paginate
@@ -276,12 +275,12 @@ C:/tools/ruby31/lib/ruby/gems/3.1.0/gems/jekyll-4.2.2/lib/jekyll/external.rb:73:
     2 gems installed
 ~~~
 
-### Running Github-Pages Locally on Windows
-1. Download the source files and unzip to whereever directory you want to make changes locally.
-2. Open a terminal inside the source folder and use `jekyll serve --incremental --trace`.
-3. Open browser and access trough [http://localhost:4000/](http://localhost:4000/) to make it available on a local server and test these changes.
+### Menjalankan Github-Pages Secara Lokal di Windows
+1. Unduh file sumber dan unzip ke direktori mana pun yang Anda inginkan untuk membuat perubahan secara lokal.
+2. Buka terminal di dalam folder sumber dan gunakan file `jekyll serve --incremental --trace`.
+3. Buka browser dan akses melalui [http://localhost:4000/](http://localhost:4000/) untuk membuatnya tersedia di server lokal dan uji perubahan ini.
 
-The `--incremental` flag ensures that any changes you make are reflected in your browser in real time and the `--trace` option might be useful for debugging if things break while you are changing the source files.
+Bendera `--incremental` memastikan bahwa setiap perubahan yang Anda buat tercermin di browser Anda secara real time dan opsi `--trace` ini mungkin berguna untuk debugging jika ada yang rusak saat Anda mengubah file sumber.
 
-Once you have personalised and tested the site, you can create a new repo, upload these files and host your website from the repo.
+Setelah Anda mempersonalisasi dan menguji situs, Anda dapat membuat repo baru, mengunggah file-file ini, dan meng-host situs web Anda dari repo.
 
