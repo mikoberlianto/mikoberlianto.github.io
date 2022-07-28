@@ -28,27 +28,27 @@ Generator situs statis adalah kompromi antara kedua pendekatan ini. Seperti CMS,
 ## Apa pro dan kontra menggunakan generator situs statis?
 ### **Pro**
 * **Performa**: Karena generator situs statis membuat halaman web terlebih dahulu alih-alih sesuai permintaan (seperti halnya CMS), halaman web dimuat sedikit lebih cepat di browser pengguna.
-* **Customization**: Developers can create any template they want. They are not limited by the fields provided by a CMS, nor by a CMS's built-in templates.
-* **Lighter backend**: Static websites are lightweight and do not require as much code to run on the server side, whereas CMS-based websites constantly query the server side for content.
+* **Kustomisasi**: DePengembang dapat membuat template apa pun yang mereka inginkan. Mereka tidak dibatasi oleh bidang yang disediakan oleh CMS, atau oleh template bawaan CMS.
+* **Backend yang lebih ringan**: Situs web statis ringan dan tidak memerlukan banyak kode untuk dijalankan di sisi server, sedangkan situs web berbasis CMS terus-menerus meminta konten di sisi server.
 
 ### **Cons**
-* **Few or no pre-built templates**: The downside of unlimited customization is that it can take longer to get started. Many static site generators do not come with templates, and developers will have to spend a lot of time building them from scratch at first.
-* **No user-friendly interface**: It is harder for non-developer users to publish content using a static site generator. There is no CMS interface, and working with raw unformatted data may be intimidating for users. In addition, developer support is often necessary for making website updates.
+* **Sedikit atau tidak ada templat yang dibuat sebelumnya**: Kelemahan dari penyesuaian tanpa batas adalah perlu waktu lebih lama untuk memulai. Banyak generator situs statis tidak datang dengan template, dan pengembang harus menghabiskan banyak waktu membangunnya dari awal pada awalnya.
+* **Tidak ada antarmuka-ramah pengguna**: Lebih sulit bagi pengguna non-pengembang untuk mempublikasikan konten menggunakan generator situs statis. Tidak ada antarmuka CMS, dan bekerja dengan data mentah yang tidak diformat mungkin mengintimidasi pengguna. Selain itu, dukungan pengembang seringkali diperlukan untuk melakukan pembaruan situs web.
 
 
-## How does JAMstack relate to static site generators?
-JAMstack (JAM stands for "JavaScript, APIs, Markup") is a methodology for efficiently creating lightweight, fast-performing web applications. JAMstack applications are static, with APIs used for any backend functionality. Static site generators enable developers to quickly build a JAMstack application frontend.
+## Bagaimana JAMstack berhubungan dengan generator situs statis?
+JAMstack (JAM adalah singkatan dari "JavaScript, API, Markup") adalah metodologi untuk secara efisien membuat aplikasi web yang ringan dan berkinerja cepat. Aplikasi JAMstack bersifat statis, dengan API yang digunakan untuk fungsionalitas backend apa pun. Generator situs statis memungkinkan pengembang untuk dengan cepat membangun frontend aplikasi JAMstack.
 
-## How are frontend frameworks used with static site generators?
-A frontend framework is a collection of files and folders of prebuilt code to help with the design and formatting of a website. Common frontend frameworks include Bootstrap, React, and Vue.js, though there are many others.
+## Bagaimana kerangka kerja frontend digunakan dengan generator situs statis?
+Kerangka kerja frontend adalah kumpulan file dan folder kode bawaan untuk membantu desain dan pemformatan situs web. Kerangka kerja frontend umum termasuk Bootstrap, React, dan Vue.js, meskipun ada banyak lainnya.
 
-Frontend frameworks are extremely helpful when developers are initially building a website. However, frontend frameworks on their own do not generate HTML webpages, unless a developer uses additional tools. A static site generator can be used along with a framework for a developer to rapidly get a fully designed website or application ready for use. Most static site generators allow developers to use any framework they want.
+Kerangka kerja frontend sangat membantu ketika pengembang awalnya membangun situs web. Namun, kerangka kerja frontend sendiri tidak menghasilkan halaman web HTML, kecuali pengembang menggunakan alat tambahan. Generator situs statis dapat digunakan bersama dengan kerangka kerja bagi pengembang untuk dengan cepat mendapatkan situs web atau aplikasi yang dirancang sepenuhnya siap digunakan. Sebagian besar generator situs statis memungkinkan pengembang untuk menggunakan kerangka kerja apa pun yang mereka inginkan.
 
-### What is Markdown?
-Markdown is a widely used, simple markup language for formatting text. Many developers today prefer using Markdown to traditional HTML when coding content, and many static site generators support Markdown.
+### Apa itu Markdown?
+Markdown adalah bahasa markup sederhana yang banyak digunakan untuk memformat teks. Banyak pengembang saat ini lebih suka menggunakan Markdown daripada HTML tradisional saat mengkodekan konten, dan banyak generator situs statis mendukung Markdown.
 
-### What are some commonly used static site generators?
-Many static site generators are available for use today. Some important ones to know are:
+### Apa saja generator situs statis yang umum digunakan?
+Banyak generator situs statis tersedia untuk digunakan saat ini. Beberapa yang penting untuk diketahui adalah:
 
 * Jekyll
 * Gatsby
@@ -56,9 +56,9 @@ Many static site generators are available for use today. Some important ones to 
 * Next.js
 * Eleventy
 
-[Cloudflare Pages](https://pages.cloudflare.com/) is hosted on the Cloudflare global network, which is within 100ms of 99% of the Internet-connected world for near-instant content delivery to end users. Cloudflare Pages is built on [Cloudflare Workers serverless functions](https://workers.cloudflare.com/) and enables developers to build lightweight, scalable web applications.
+[Cloudflare Pages](https://pages.cloudflare.com/) dihosting di jaringan global Cloudflare, yang berada dalam jarak 100ms dari 99% dunia yang terhubung ke Internet untuk pengiriman konten yang hampir instan ke pengguna akhir. Cloudflare Pages dibangun di atas [Cloudflare Workers fungsi tanpa server](https://workers.cloudflare.com/) dan memungkinkan pengembang untuk membangun aplikasi web yang ringan dan dapat diskalakan.
 
-Learn how to deploy a [Jekyll site](https://developers.cloudflare.com/pages/how-to/deploy-a-jekyll-site), a [Gatsby site](https://developers.cloudflare.com/pages/how-to/deploy-a-gatsby-site), a [Hugo site](https://developers.cloudflare.com/pages/how-to/deploy-a-hugo-site), and more with Cloudflare Pages.
+Pelajari cara deploy [Jekyll site](https://developers.cloudflare.com/pages/how-to/deploy-a-jekyll-site), [Gatsby site](https://developers.cloudflare.com/pages/how-to/deploy-a-gatsby-site), [Hugo site](https://developers.cloudflare.com/pages/how-to/deploy-a-hugo-site), dan lainnya dengan Halaman Cloudflare.
 
 
 >#### Source
