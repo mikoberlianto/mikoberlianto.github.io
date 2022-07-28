@@ -32,7 +32,7 @@ We only cover RubyInstaller-2.4 and newer here. Older versions need to install t
 That’s it, you’re ready to use Jekyll!
 
 ## Running Jekyll and Static pages
-1. Create a new Jekyll site at `./myblog`.
+* Create a new Jekyll site at `./myblog`.
 ```jekyll new myblog```
 
 ~~~PowerShell
@@ -87,7 +87,7 @@ That’s it, you’re ready to use Jekyll!
     New jekyll site installed in C:/tools/myblog.
 ~~~
 
-2. Change into your new directory.
+* Change into your new directory.
 ```cd myblog```
 
 ~~~PowerShell
@@ -109,7 +109,7 @@ That’s it, you’re ready to use Jekyll!
     -a---        27/07/2022     18:26            175   index.markdown
 ~~~
 
-3. Build the site and make it available on a local server.
+* Build the site and make it available on a local server.
 ```bundle exec jekyll serve```
 
 ~~~PowerShell
@@ -144,8 +144,6 @@ That’s it, you’re ready to use Jekyll!
             from C:/tools/ruby31/bin/jekyll:32:in `load'
             from C:/tools/ruby31/bin/jekyll:32:in `<main>'
 ~~~
-
-4. Browse to [http://localhost:4000](http://localhost:4000)
 
 > If you are using Ruby version 3.0.0 or higher, step 5 may fail. You may fix it by adding `webrick` to your dependencies: `bundle add webrick`
 ~~~PowerShell
@@ -192,6 +190,9 @@ That’s it, you’re ready to use Jekyll!
     Using minima 2.5.1
     Installing webrick 1.7.0
 ~~~
+
+
+* Browse to [http://localhost:4000](http://localhost:4000)
 
 > If there some Dependency error
 
