@@ -1,17 +1,10 @@
 ---
 layout: post
 title: Scrcpy
-subtitle: Mirroring display and control Android devices
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [script,windows]
-comments: false
+description: Mirroring display and control Android devices
 ---
 
-# **scrcpy**
-Dibaca "screen copy"
-
-Aplikasi ini menyediakan tampilan dan kontrol perangkat Android yang terhubung pada USB (atau melalui TCP/IP). Ini tidak membutuhkan akses root apa pun. Ini bekerja pada GNU/Linux, Windows and macOS.
+scrcpy (dibaca, screen copy). Aplikasi ini menyediakan tampilan dan kontrol perangkat Android yang terhubung pada USB (atau melalui TCP/IP). Ini tidak membutuhkan akses root apa pun. Ini bekerja pada GNU/Linux, Windows and macOS.
 
 Ini berfokus pada:
 -sangat ringan; (native, hanya menampilkan layar perangkat)
@@ -46,6 +39,8 @@ Di beberapa perangkat, Anda juga perlu mengaktifkan [opsi tambahan](https://gith
 1. Pasang perangkat Android ke komputermu melalui port USB atau dapat koneksi dalam jaringan WiFi.
 
 2. Enable **adb debugging** di perangkat mu.
+
+
 ### Melalui USB
 Di Android 4.2 dan diatasnya, tampilan **Developer options** disembunyikan secara default. Untuk menampilkannya, pergi ke **Settings** > **About phone** dan tap **Build number** sebanyak 7 kali. Kembali ke tampilan sebelumnya untuk menemukan **Developer options** di bawah.
 
@@ -131,6 +126,7 @@ WARN: Killing the server...
 source:
 NOT WORKING ON ANDROID 12 https://github.com/Genymobile/scrcpy/issues/3255
 
-
+```
 scrcpy --tcpip=192.168.1.47:40329 --bit-rate 10M --max-size 1024 --always-on-top --window-title "POCO F3-MIKO BERLIANTO" --turn-screen-off --power-off-on-close
 scrcpy -d --bit-rate 10M --max-size 1024 --always-on-top --window-title "POCO F3-MIKO BERLIANTO"
+```

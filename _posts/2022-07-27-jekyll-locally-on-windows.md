@@ -10,8 +10,8 @@ Jekyll adalah generator situs statis. Dibutuhkan teks yang ditulis dalam bahasa 
 Jekyll adalah [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) yang dapat diinstal pada sebagian besar sistem.
 
 Persyaratan
-* [Ruby](https://www.ruby-lang.org/en/downloads/) versi **2.5.0** atau lebih tinggi, termasuk semua header pengembangan (periksa versi Ruby Anda menggunakan ruby -v)
-* [RubyGems](https://rubygems.org/pages/download) (periksa versi Permata Anda menggunakan gem -v)
+* [Ruby](https://www.ruby-lang.org/en/downloads/) versi **2.5.0** atau lebih tinggi, termasuk semua header pengembangan (periksa versi Ruby Anda menggunakan `ruby -v`)
+* [RubyGems](https://rubygems.org/pages/download) (periksa versi Permata Anda menggunakan `gem -v`)
 * [GCC](https://gcc.gnu.org/install/) dan [Make](https://www.gnu.org/software/make/) (periksa versi menggunakan `gcc -v`, `g++ -v`, dan `make -v`)
 
 ## Jekyll di Windows
