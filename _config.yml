@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Miko Berlianto
-description: subtitle | affiliations | motto
+description: Error is the best practices | Personal Logbook
 
 baseurl: "" #name of GitHub repository, if use github.io just clear field or use ""
 url: "https://mikoberlianto.github.io" #custom url to be used instead of GitHub repository
@@ -21,8 +21,8 @@ facebook: "miko.berlianto"
 twitter: "koomikoo"
 linkedin: "#"
 github: "mikoberlianto"
-# researchgate: "#"
-# orcid: "#"
+researchgate: "#"
+orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
