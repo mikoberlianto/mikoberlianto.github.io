@@ -21,8 +21,8 @@ facebook: "miko.berlianto"
 twitter: "koomikoo"
 linkedin: "#"
 github: "mikoberlianto"
-researchgate: "#"
-orcid: "#"
+# researchgate: "#"
+# orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
