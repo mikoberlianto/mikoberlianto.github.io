@@ -26,7 +26,7 @@ Konten dalam CMS harus sesuai dengan salah satu bidang yang ditawarkan oleh data
 Generator situs statis adalah kompromi antara kedua pendekatan ini. Seperti CMS, ini memungkinkan pengembang untuk menggunakan template dan secara otomatis menghasilkan halaman web — tetapi ia melakukan yang terakhir sebelumnya, alih-alih sebagai tanggapan atas permintaan pengguna. Ini membuat [kinerja situs web](https://www.cloudflare.com/learning/performance/why-site-speed-matters/) lebih cepat, karena halaman web langsung siap untuk dikirim ke pengguna akhir. Ini juga menawarkan penyesuaian yang lebih besar untuk pengembang, karena mereka tidak dibatasi oleh bidang database yang ditawarkan oleh CMS.
 
 ## Apa pro dan kontra menggunakan generator situs statis?
-### **Pro**
+### **Pros**
 * **Performa**: Karena generator situs statis membuat halaman web terlebih dahulu alih-alih sesuai permintaan (seperti halnya CMS), halaman web dimuat sedikit lebih cepat di browser pengguna.
 * **Kustomisasi**: DePengembang dapat membuat template apa pun yang mereka inginkan. Mereka tidak dibatasi oleh bidang yang disediakan oleh CMS, atau oleh template bawaan CMS.
 * **Backend yang lebih ringan**: Situs web statis ringan dan tidak memerlukan banyak kode untuk dijalankan di sisi server, sedangkan situs web berbasis CMS terus-menerus meminta konten di sisi server.
