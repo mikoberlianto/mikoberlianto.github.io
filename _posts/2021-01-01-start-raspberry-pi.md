@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Start Journey On Raspberry Pi"
+title: "Mulai Perjalanan Di Raspberry Pi"
 subtitle: "Mulai perjalanan mu bersama raspberry pi dengan mudah"
 tags: [documentation,setup,raspberry pi]
 ---
-# **Memulai Raspberry Pi**
 
 ## **Cerita Dibalik Raspberry Pi**
 Raspberry Pi (/paɪ/) adalah seri single-board computers (SBCs) terkecil yang dikembangkan di United Kingdom (Inggris) oleh Raspberry Pi Foundation yang berkerjasama dengan Broadcom. Projek Raspberry Pi sebenarnya digunakan untuk keperluan pembelajaran di sekolah dan negara-negara berkembang.
@@ -48,22 +47,21 @@ Sampai dengan saat ini Raspberry Pi Foundation atau yang sekarang disebut Raspbe
 ## **Persiapan SD Card**
 
 ### **Enable SSH on First Boot**
-1. Flash image to your Micro SD Card, eject and plug-in again to PC
-2. Opened `boot` directory and make file `SSH` non-extention.
-3. Eject and mount to raspberry pi then turn on devices.
-4. Scan for IP Address Raspberry Pi using [AngryIpScanner](https://angryip.org/download/#windows) or [Wireless Network Watcher](https://www.nirsoft.net/utils/wireless_network_watcher.html).
-5. Connect using SSH Client(such as [Putty](https://www.putty.org/)) or you can direct on Windows Terminal ```ssh pi@<ip_address_raspi>```
-6. Congratulation, you can login using default credential `user/password` `pi/raspberry`.
+1. Gambar flash ke Kartu Micro SD Anda, keluarkan dan colok-in lagi ke PC.
+2. Membuka direktori `boot` dan membuat file `SSH` non-extention.
+3. Keluarkan dan pasang Micro SD ke raspberry pi lalu nyalakan perangkat.
+4. Pindai Alamat IP Raspberry Pi menggunakan [AngryIpScanner](https://angryip.org/download/#windows) atau [Wireless Network Watcher](https://www.nirsoft.net/utils/wireless_network_watcher.html).
+5. Sambungkan menggunakan SSH Client (seperti [Putty](https://www.putty.org/)) atau Anda dapat mengarahkan di Terminal Windows ```ssh pi@<ip_address_raspi>```
+6. Selamat, Anda dapat masuk menggunakan kredensial default `user/password` `pi/raspberry`.
 
-UPDATE:
-Alternatively, you can set it on latest version Raspberry Pi Imager then hitting Ctrl+Shift+X and enabling ssh through app before flash.  
-###### Source: [PiMyLifeup](https://pimylifeup.com/raspberry-pi-enable-ssh-boot/)
+PEMBARUAN: Atau, Anda dapat mengaturnya pada versi terbaru Raspberry Pi Imager kemudian menekan `Ctrl+Shift+X` dan mengaktifkan ssh melalui aplikasi sebelum flash.  
+###### Sumber: [PiMyLifeup](https://pimylifeup.com/raspberry-pi-enable-ssh-boot/)
   
 
 
 
 ### **Fixing (some) USB Adapter Problems Using Quirks**
-Some of the very common adapters can be made to work by using USB quirks to disable UAS mode on the drive. This lowers performance, but it?s still much faster than a SD card and your adapter won't go to waste.
+Some of the very common adapters can be made to work by using USB quirks to disable UAS mode on the drive. This lowers performance, but it's still much faster than a SD card and your adapter won't go to waste.
 
 To find out the quirks we need to find the device ID string for your adapter and then add an entry to cmdline.txt telling the kernel to apply them on boot.
 #### **Find Your Adapter**
@@ -98,27 +96,21 @@ pi@raspberrypi:~ $
 This is the *dmesg* log showing the hardware detection as hardware is activated on the Pi. If your log is really long you can generate fresh entries by just unplugging a device and plugging it back in and running the command again. Here we can clearly see that the X825 is what our Geekworm adapter is being detected as.
 
 Now we can go back to our first lsusb command and we want the 8 characters from the ID field that comes right after the Device:
-```
+``` shell
 Bus 002 Device 003: ID 174c:0825 ASMedia Technology Inc.
 ```
 #### **Applying Quirks**
 To apply the quirks to our USB adapter we are going to edit */boot/cmdline.txt*. Type:
-`
-sudo nano /boot/cmdline.txt
-`
+`sudo nano /boot/cmdline.txt`
 We are going to add the following entry into the very front of cmdline.txt:
-`
-usb-storage.quirks=XXXX:XXXX:u
-`
+`usb-storage.quirks=XXXX:XXXX:u`
 In place of the X's above you will put in your adapter?s ID that we got before. With the example commands I gave above mine would look like this: *usb-storage.quirks=174c:0825:u*. After this my *cmdline.txt* looks like this (everything should be one continuous line, no line breaks!):
-`
-usb-storage.quirks=174c:0825:u console=serial0,115200 console=tty1 root=PARTUUID=d34db33f-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
-`
+`usb-storage.quirks=174c:0825:u console=serial0,115200 console=tty1 root=PARTUUID=d34db33f-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait`
 Now reboot the Pi. If the Pi fails to boot you can plug the SD card into the computer and go to */boot/cmdline.txt* and undo the change we did so you can boot back in with your SD card.
 
 #### **Verifying Quirks**
 Once you have rebooted after changing *cmdline.txt* we can verify the quirks have been applied by doing another `dmesg | grep usb` command:
-```
+```shell
 sudo dmesg | grep usb
  [    1.332924] usb 2-1: New USB device found, idVendor=174c, idProduct=55aa, bcdDevice= 1.00
  [    1.332957] usb 2-1: New USB device strings: Mfr=2, Product=3, SerialNumber=1

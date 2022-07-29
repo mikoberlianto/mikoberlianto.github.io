@@ -11,6 +11,12 @@ email: #
 highlighter: rouge
 markdown: kramdown
 
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 # Pagination
 paginate: 4
 permalink: /blog/:year/:title/
